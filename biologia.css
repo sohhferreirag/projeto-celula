@@ -1,0 +1,235 @@
+/* estrutura de fomatação da mitocondria */
+.container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.child
+{
+    border: solid black;
+    padding: 10px;
+    margin: 20px;
+    
+}
+.titulo
+{
+    text-align: center;
+}
+/*estudura de formatação do ribossomo.*/
+.ribo
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+#ribossomo
+{
+    border: solid black;
+    padding: 10px;
+    margin: 20px;
+   
+    
+}
+/*estrutura de formatação do complexo de golg*/
+#complexo
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.golg
+{
+    border: solid black;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    
+}
+/*estrurura de formatação do nucleo*/
+#nucleo
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.nucle
+{
+    border: solid black,;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+}
+/*estrutura de formatação do lissosomo*/
+#lissosomo
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.lisso
+{
+    border: solid black;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 15px;
+    height: 300px;
+    width: 400px;
+}
+#lista
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.funcao
+{
+    border: solid black;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 15px;
+}
+/*estrutura de formatação do REL*/
+#rer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.rel
+{
+    border: solid black;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 15px;
+}
+.nicollas
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #333;
+    height: 100px;
+    flex-wrap: wrap;
+}
+.inicio
+{
+    padding: 20px;
+    margin: 16px;
+    
+}
+.nicollas a
+{
+    text-decoration: none;
+    color: white;
+}
+.nicollas a:hover
+{
+    background-color:blue;
+    color: #fff;
+}
+body
+{
+    background-color: rgb(206, 243, 238);
+}
+.texto
+{
+    font-family:'Times New Roman', Times, serif
+}
+h1
+{
+    color: rgba(0, 0, 0, 0.856);
+    text-align: center
+}
+.tabela_1
+{
+   display: flex;
+   justify-content: center;
+}
+.tabela
+{
+    background-color: aliceblue;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+body
+{
+    background-color: aquamarine;
+}
+.tex
+{
+    text-decoration: underline;
+    text-decoration: wavy;
+}
+.imagens
+{
+    display: flex;
+    justify-content: center;
+    
+}
+h2
+{
+    text-align: center;
+}
+.dropdown-menu
+{
+    position: absolute;
+    border: 1px solid black;
+    display: none;
+}
+.dropdown-menu:hover
+{
+    color: #fff;
+    background-color: darkgray;
+}
+
+.dropdown-menu a
+{
+    display: block;
+    color: black;
+}
+.dropdown:hover .dropdown-menu
+{
+    display: block;
+}
+.dropdown .a
+{
+    color: #fff;
+}
+.a
+{
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+}
+.a a
+{
+    text-decoration: none;
+    color: #fff;
+}
+.re
+{
+    display: flex;
+    justify-content: center;
+}
+.a a:hover
+{
+    background-color: whitesmoke;
+    color: black;
+}
+.rel a
+{
+    color: #333;
+}
+.dropdown
+{
+    background-color: #333;
+    height: 100%;
+}

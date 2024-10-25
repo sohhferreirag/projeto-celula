@@ -1,0 +1,120 @@
+/* Responsividade para a imagem */
+.imagens {
+    text-align: center; /* Centraliza a imagem */
+}
+
+.imagens img {
+    max-width: 60%; /* Faz a imagem ocupar no máximo 60% da largura do seu contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Media Query para dispositivos menores */
+@media (max-width: 500px)
+ {
+    .dropdown-menu 
+    {
+        display: none; /* Esconde o menu dropdown em telas pequenas */
+    }
+    .imagens img 
+    {
+        height: 200%;
+    }
+
+    .dropdown:hover .dropdown-menu {
+        display: block; /* Mostra o menu ao passar o mouse */
+    }
+
+    /* Estilos adicionais para melhorar a legibilidade */
+    h2.texto {
+        font-size: 1.2em; /* Aumenta o tamanho da fonte em telas menores */
+    }
+}
+img
+{
+    width: 100%;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.tabela {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabela th, .tabela td {
+    padding: 10px;
+    text-align: left;
+}
+
+.tabela th {
+    background-color: #f2f2f2;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.tabela {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px; /* Espaço abaixo da tabela */
+}
+
+.tabela th, .tabela td {
+    padding: 10px;
+    text-align: left;
+}
+
+.tabela th {
+    background-color: #f2f2f2;
+}
+
+@media (max-width: 700px) {
+    .tabela {
+        display: block;
+        overflow-x: auto; /* Permite rolagem horizontal */
+    }
+
+    .tabela thead {
+        display: none; /* Esconde o cabeçalho na visualização em coluna */
+    }
+
+    .tabela tr {
+        display: block;
+        margin-bottom: 10px;
+        border: 1px solid #ccc; /* Adiciona borda aos blocos */
+    }
+
+    .tabela td {
+        display: flex;
+        justify-content: space-between;
+        border: none; /* Remove bordas das células */
+        padding: 10px;
+        text-align: left;
+        background-color: #fff; /* Fundo branco para as células */
+    }
+
+    .tabela td::before {
+        content: attr(data-label); /* Mostra o título da coluna */
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-right: 10px;
+    }
+}
+
+/* Ajustes para telas maiores */
+@media (min-width: 1000px) {
+    .tabela th, .tabela td {
+        padding: 15px; /* Aumenta o padding em telas maiores */
+    }
+
+    .tabela th {
+        font-size: 1.2em; /* Aumenta o tamanho da fonte do cabeçalho */
+    }
+}
+
